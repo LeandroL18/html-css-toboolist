@@ -30,15 +30,24 @@
 
 /* Stili main */
 #container_button{
-    border-top-right-radius:5px ;
-    border-top-left-radius: 5px ;
+    border-top-right-radius:7px ;
+    border-top-left-radius: 7px ;
     background-color: rgb(255, 255, 255);
-    width: 60%;
+    width: 80%;
     height: 30px; 
     padding-left: 40px;
     padding-top: 20px;
-    padding-bottom: 4px;
+    padding-bottom: 1px;
     margin-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 2.5px;
+    margin-left: 100px;
 }
 
+#container{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 840px;
+    margin-left: 100px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
