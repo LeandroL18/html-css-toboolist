@@ -1,0 +1,44 @@
+/* Stili generali */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    background-color: rgba(240, 248, 255, 0.734);
+    font-family: Arial, sans-serif;
+}
+
+/* Stili header */
+#container_logo{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;;  
+}
+
+#logo{
+    padding-left: 20px;
+    padding-top: 10px;
+    inline-size: 80px;
+    line-height: 50px;
+}
+
+#testo_logo{
+    font-size: 60px;
+    vertical-align: 20px;
+}
+
+/* Stili main */
+#container_button{
+    border-top-right-radius:5px ;
+    border-top-left-radius: 5px ;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 30px; 
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
