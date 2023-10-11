@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Toboolist</title>
-</head>
-<body>
-    <!-- Inizio intestazione -->
-    <header>
-        <div id="container_logo">
-            <img id="logo"  src="img/Logo.png" alt="Logo">
-            <span id="testo_logo"><strong>Toboolist</strong></span>
-        </div>
-    </header>
-
-    <!-- Inizio main -->
-    <main>
-        <!-- Inizio sezione con bottoni -->
-            <div id="container_button">
-                <button>Add Task</button>
-                <button>Add Section</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Toboolist</title>
+    </head>
+    <body>
+        <!-- Inizio intestazione -->
+        <header>
+            <div id="container_logo">
+                <img id="logo"  src="img/Logo.png" alt="Logo">
+                <span id="testo_logo"><strong>Toboolist</strong></span>
             </div>
+        </header>
 
-            <div id="container">
-                fdgdfdghtrshs
-
-            </div>
-
-    </main>
-
-    
-</body>
+        <!-- Inizio main -->
+        <main>
+            <!-- Inizio sezione con bottoni -->
+                <div id="container_button">
+                    <button id="task_button">Add Task</button>
+                    <button id="section_button">Add Section</button>
+                </div>
+            <!-- Inizio menu -->
+                <div id="container_menu">
+                    <!-- Inizio lista new task  -->
+                    <ul>
+                        <span class="nome_tendina">&dtrif;New Task</span>
+                        <li>
+                            <span class="check cerchio" >&check;</span>
+                            <span class="testo">Quarterly Newsletter</span>
+                            <span class="label editorial">Editorial</span>
+                        </li>    
+                    </ul>
+                    <!-- Inizio lista Today -->
+                    <ul>
+                        <span class="nome_tendina">&dtrif;Today</span>
+                        <li>
+                            <span class="check cerchio" >&check;</span>
+                            <span class="testo">Recruiting blog post</span>
+                            <span class="label editorial">Editorial</span>
+                        </li> 
+                        <li>
+                            <span class="check cerchio" >&check;</span>
+                            <span class="testo">Mobile app luaunch</span>
+                            <span class="label q1goals">Q1 Goals</span>
+                        </li>  
+                        <li>
+                            <span class="cross cerchio" >&cross;</span>
+                            <span class="testo">Interview John H.</span>
+                            <span class="label recruiting">Recruiting</span>
+                        </li>  
+                        <li>
+                            <span class="check cerchio" >&check;</span>
+                            <span class="testo">Summit update to mobile storefronts</span>
+                            <span class="label mobile">Mobile</span>
+                        </li>  
+                    </ul>
+                    <!-- Inizio lista Upcoming -->
+                    <ul>
+                        <span class="nome_tendina">&dtrif;Upcoming</span>
+                        <li>
+                            <span class="cross cerchio" >&cross;</span>
+                            <span class="testo">Schedule meeting with Alex</span>
+                        </li> 
+                        <li>
+                            <span class="check cerchio" >&check;</span>
+                            <span class="testo">Homepage refresh</span>
+                            <span class="label website">Website</span>
+                        </li>  
+                        <li>
+                            <span class="check cerchio" >&check;</span>
+                            <span class="testo">Onboard new Sales team members</span>
+                            <span class="label sales">Sales</span>
+                        </li> 
+                        <li>
+                            <span class="check cerchio" >&check;</span>
+                            <span class="testo">Review editorial calendar</span>
+                            <span class="label editorial">Editorial</span>
+                        </li>      
+                    </ul>
+                </div>
+        </main>    
+    </body>
 </html>
